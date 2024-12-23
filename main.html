@@ -1,16 +1,89 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Optional CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        #skills, #projects {
+            margin: 20px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #77aaff;
+            margin: 5px 0;
+            padding: 10px;
+            color: #fff;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Image -->
+        <img src="your-image.jpg" alt="Your Name" style="width:150px;height:150px;">
 
+        <!-- Name -->
+        <h1>Your Name</h1>
+
+        <!-- LinkedIn Profile -->
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Here are some of my skills:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Description of project 1</li>
+                <li>Project 2: Description of project 2</li>
+                <li>Project 3: Description of project 3</li>
+            </ul>
+        </section>
+    </div>
 </body>
-
 </html>
